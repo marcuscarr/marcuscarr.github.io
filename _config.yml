@@ -1,0 +1,15 @@
+# Site settings
+baseurl: ""
+url: http://www.camarcuscarr.com
+# encoding:
+# github: [Repository metadata]
+
+# Build settings
+highlighter: pygments
+# markdown:
+# permalink:
+
+# Site details
+license: "Apache 2.0"
+license-url: "https://github.com/marcuscarr/marcuscarr.github.io/blob/master/LICENSE.md"
+author: "Marcus Carr"
