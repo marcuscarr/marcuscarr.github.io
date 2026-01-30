@@ -49,9 +49,33 @@ The built files will be in the `dist` directory.
 npm run preview
 ```
 
-## Deployment
+## Deployment to GitHub Pages
 
-This site is automatically deployed to GitHub Pages when changes are pushed to the `main` branch using GitHub Actions.
+This site is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+### Quick Start
+
+1. **Enable GitHub Pages**:
+   - Go to Settings → Pages
+   - Under "Source", select "GitHub Actions"
+
+2. **Deploy**:
+   - Merge this branch to `main`
+   - The workflow will automatically build and deploy your site
+
+3. **Access your site**:
+   - Your site will be live at `https://marcuscarr.github.io/`
+
+📖 **See [SETUP.md](SETUP.md) for detailed deployment instructions and troubleshooting.**
+
+### Manual Deployment
+
+If you prefer not to use GitHub Actions, you can deploy manually:
+
+```bash
+npm run build
+# Then upload the dist/ folder to your hosting provider
+```
 
 ## Tech Stack
 
